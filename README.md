@@ -25,9 +25,3 @@ Será um projeto pessoal para praticar e testar abilidades. :monocle_face:
    2. [ ] Fluxo de Desenvolvimento da Interface.
    3. [ ] Implementação do Feed.
 5. Próximos Passos e Desafios.
-
----
-Por: __*João Henrique da silva.*__ :zany_face:
-###### Mais informações 
-[Youtube](https://www.youtube.com/@Pequeno_dev)
-[Email](7joaohenrique5557@gmail.com)
