@@ -6,8 +6,8 @@ Este documento apresenta o plano de desenvolvimento passo a passo para construir
 * Frontend: JavaScript com React (usando Vite).
 * Banco de Dados: MySQL.
 
-Será um projeto pessoal para praticar e testar abilidades. :monocle_face:
-
+Será um projeto pessoal para praticar e testar abilidades. :monocle_face:  
+Use o arquivo [jeffrey](logica-de-desenvolvimento/Jeffrey.pdf) como exemplo da logica de desenvolvimento do site.
 ---
 
 ## Fases do desenvolvimento: :nerd_face:
@@ -18,7 +18,7 @@ Será um projeto pessoal para praticar e testar abilidades. :monocle_face:
       1. [ ] Frontend (React): Interface do usuário que envia requisições HTTP (GET, POST, PUT, DELETE).
       2. [ ] backend (Spring Boot): Recebe as requisições, executa a lógica de negócio (Services), interage com o Banco de Dados (Repositories) e retorna respostas JSON.
       3. [ ] Banco de Dados (MySQL): Armazenamento persistente de todos os dados.
-2. Backend: Java com Spring Boot (Utiliza-se o Spring Initializr e inclue as seguintes !(dependências){./logica-de-desenvolvimento/dependencias_backend.png}).
+2. Backend: Java com Spring Boot (Utiliza-se o Spring Initializr e inclue as seguintes dependencias: ![dependências](logica-de-desenvolvimento/dependencias_backend.png).
    1. [x] Configuração Inicial.
    2. [ ] Autenticação (Spring Security e JWT).
    3. [ ] Estrutura de Camadas.
