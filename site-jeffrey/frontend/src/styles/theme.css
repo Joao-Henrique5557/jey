@@ -1,0 +1,81 @@
+/* =========================
+   MATERIAL DESIGN 3 - LIGHT
+   ========================= */
+:root {
+  /* Primary */
+  --md-primary: #6750a4;
+  --md-on-primary: #ffffff;
+  --md-primary-container: #eaddff;
+  --md-on-primary-container: #21005d;
+
+  /* Secondary */
+  --md-secondary: #625b71;
+  --md-on-secondary: #ffffff;
+  --md-secondary-container: #e8def8;
+  --md-on-secondary-container: #1d192b;
+
+  /* Tertiary */
+  --md-tertiary: #7d5260;
+  --md-on-tertiary: #ffffff;
+  --md-tertiary-container: #ffd8e4;
+  --md-on-tertiary-container: #31111d;
+
+  /* Background / Surface */
+  --md-background: #fffbfe;
+  --md-on-background: #1c1b1f;
+
+  --md-surface: #fffbfe;
+  --md-on-surface: #1c1b1f;
+  --md-surface-variant: #e7e0ec;
+  --md-on-surface-variant: #49454f;
+
+  /* Outline */
+  --md-outline: #79747e;
+
+  /* Error */
+  --md-error: #b3261e;
+  --md-on-error: #ffffff;
+  --md-error-container: #f9dedc;
+  --md-on-error-container: #410e0b;
+}
+
+/* =========================
+   MATERIAL DESIGN 3 - DARK
+   ========================= */
+.dark {
+  /* Primary */
+  --md-primary: #d0bcff;
+  --md-on-primary: #381e72;
+  --md-primary-container: #4f378b;
+  --md-on-primary-container: #eaddff;
+
+  /* Secondary */
+  --md-secondary: #ccc2dc;
+  --md-on-secondary: #332d41;
+  --md-secondary-container: #4a4458;
+  --md-on-secondary-container: #e8def8;
+
+  /* Tertiary */
+  --md-tertiary: #efb8c8;
+  --md-on-tertiary: #492532;
+  --md-tertiary-container: #633b48;
+  --md-on-tertiary-container: #ffd8e4;
+
+  /* Background / Surface */
+  --md-background: #1c1b1f;
+  --md-on-background: #e6e1e5;
+
+  --md-surface: #1c1b1f;
+  --md-on-surface: #e6e1e5;
+  --md-surface-variant: #49454f;
+  --md-on-surface-variant: #cac4d0;
+
+  /* Outline */
+  --md-outline: #938f99;
+
+  /* Error */
+  --md-error: #f2b8b5;
+  --md-on-error: #601410;
+  --md-error-container: #8c1d18;
+  --md-on-error-container: #f9dedc;
+}
