@@ -2,9 +2,11 @@ import Formulario from "../components/Formulario"
 import { useState } from "react";
 import '../styles/login.css'
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
     const [dark, setDark] = useState(false);
+    const navigate = useNavigate();
 
     const toggleTheme = () => {
         if (dark === false) {
@@ -19,9 +21,9 @@ const Login = () => {
     return <div id="login">
         <span className="material-symbols-outlined" onClick={toggleTheme}>{!dark ? "dark_mode" : "light_mode"}</span>
         <Formulario procedimento="login" />
-        <Link to="/cadastro">
+        <p onClick={() => navigate("/cadastro")}>
             Não tem conta? Cadastre-se
-        </Link>
+        </p>
     </div>
 }
 
