@@ -1,0 +1,66 @@
+#login{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#formulario{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  gap: 30px;
+}
+
+#formulario a{
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: var(--md-on-background);
+}
+
+#input{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: solid 2px var(--md-outline);
+  background-color: var(--md-surface-variant);
+  border-radius: 5px 5px 0 0;
+}
+
+#input input{
+  padding: 0 10px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--md-surface-variant);
+}
+
+#input label{
+  padding: 5px 10px;
+  font-size: 14px;
+  color: var(--md-on-surface-variant);
+}
+
+#btn{
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--md-primary);
+  color: var(--md-on-primary);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--md-primary) 92%,
+    rgba(255,255,255,0.08)
+  );
+}

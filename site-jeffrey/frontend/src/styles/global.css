@@ -12,3 +12,17 @@ body {
   font-family: 'Pixelify Sans', sans-serif;
   transition: background-color 0.3s, color 0.3s;
 }
+
+html, body, #root {
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
