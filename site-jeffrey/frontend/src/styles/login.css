@@ -5,6 +5,10 @@
   align-items: center;
 }
 
+#login span:hover{
+  cursor: pointer;
+}
+
 #formulario{
   display: flex;
   flex-direction: column;
@@ -64,3 +68,10 @@
     rgba(255,255,255,0.08)
   );
 }
+
+.material-symbols-outlined{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
