@@ -4,7 +4,7 @@ import Cadastro from "./pages/Cadastro";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/jeffrey">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
