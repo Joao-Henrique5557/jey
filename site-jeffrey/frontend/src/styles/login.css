@@ -1,5 +1,6 @@
 #login{
   display: flex;
+  flex-direction: column;
   flex: 1;
   justify-content: center;
   align-items: center;
@@ -42,6 +43,7 @@
   border: none;
   border-radius: 4px;
   background-color: var(--md-surface-variant);
+  color: var(--md-on-surface-variant);
 }
 
 #input label{

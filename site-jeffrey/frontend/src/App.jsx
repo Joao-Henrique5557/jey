@@ -1,8 +1,16 @@
-import Login from "./pages/Login.jsx";
-import Cadastro from "./pages/Cadastro.jsx";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Cadastro from "./pages/Cadastro";
 
 const App = () => {
-  return <Login />;
-}
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/cadastro" element={<Cadastro />} />
+      </Routes>
+    </BrowserRouter>
+  );
+};
 
 export default App;
