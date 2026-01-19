@@ -1,5 +1,5 @@
 const Input = ({label}) => {
-    return <div id="input">
+    return <div className="input">
         <label>{label}</label>
         <input type="text" />
     </div>

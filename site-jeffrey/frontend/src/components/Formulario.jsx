@@ -3,15 +3,15 @@ import Btn from "./Btn"
 
 const Formulario = (tipo) => {
     if(tipo.procedimento === "login"){
-        return <div id="formulario">
-            <h1>Jeffrey</h1>
+        return <div className="formulario">
+            <h1>Jeffrey - Login</h1>
             <Input label="E-mail" />
             <Input label="Senha" />
             <Btn />
         </div>
     } else if(tipo.procedimento === "cadastro"){
-        return <div id="formulario">
-            <h1>Jeffrey</h1>
+        return <div className="formulario">
+            <h1>Jeffrey - Cadastro</h1>
             <Input label="Nome" />
             <Input label="E-mail" />
             <Input label="Senha" />
