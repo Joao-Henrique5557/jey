@@ -1,0 +1,30 @@
+import Formulario from "../components/Formulario"
+import { useState } from "react";
+import '../styles/login.css'
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+
+const Login = () => {
+    const [dark, setDark] = useState(false);
+    const navigate = useNavigate();
+
+    const toggleTheme = () => {
+        if (dark === false) {
+            document.documentElement.classList.add("dark");
+            setDark(true);
+        } else {
+            document.documentElement.classList.remove("dark");
+            setDark(false);
+        }
+    }
+
+    return <div id="login">
+        <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>{!dark ? "dark_mode" : "light_mode"}</span>
+        <Formulario procedimento="login" />
+        <p onClick={() => navigate("/cadastro")}>
+            Não tem conta? Cadastre-se
+        </p>
+    </div>
+}
+
+export default Login

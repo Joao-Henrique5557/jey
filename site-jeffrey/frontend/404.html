@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <script>
+      const repo = "/jeffrey";
+      const path = window.location.pathname;
+
+      if (path.startsWith(repo)) {
+        const newPath = path.replace(repo, "");
+        window.location.replace(repo + "/?p=" + newPath);
+      } else {
+        window.location.replace(repo + "/");
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
