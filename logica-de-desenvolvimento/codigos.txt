@@ -1,0 +1,7 @@
+npm install - para cada que trabalha com node, tipo  vite do frontend e servidor do backend.
+
+npm run dev - para abrir um sevidor web.
+
+para fazer deploy:
+npm run build
+npm run deploy
