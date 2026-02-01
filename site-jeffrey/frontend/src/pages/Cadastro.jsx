@@ -1,6 +1,6 @@
-import Formulario from "../components/Formulario"
+import Formulario from "../components/Formulario";
 import { useState } from "react";
-import '../styles/login.css'
+import '../styles/login.css';
 import { useNavigate } from "react-router-dom";
 
 const Cadastro = () => {
@@ -26,4 +26,4 @@ const Cadastro = () => {
     </div>
 }
 
-export default Cadastro
+export default Cadastro;

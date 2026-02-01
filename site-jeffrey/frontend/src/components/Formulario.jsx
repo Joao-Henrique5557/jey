@@ -1,5 +1,5 @@
-import Input from "./Input"
-import Btn from "./Btn"
+import Input from "./Input";
+import Btn from "./Btn";
 
 const Formulario = (tipo) => {
     if(tipo.procedimento === "login"){
@@ -20,4 +20,4 @@ const Formulario = (tipo) => {
     }
 }
 
-export default Formulario
+export default Formulario;
