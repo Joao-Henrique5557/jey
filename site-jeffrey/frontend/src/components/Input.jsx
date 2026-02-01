@@ -5,4 +5,4 @@ const Input = ({label}) => {
     </div>
 }
 
-export default Input
+export default Input;
