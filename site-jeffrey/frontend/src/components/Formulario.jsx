@@ -1,8 +1,8 @@
 import Input from "./Input";
 import Btn from "./Btn";
 
-const Formulario = (tipo) => {
-    if(tipo.procedimento === "login"){
+const Formulario = (props) => {
+    if(props.tipo === "login"){
         return <form className="formulario">
             <h1>Jeffrey - Login</h1>
             <Input label="E-mail" />
@@ -10,7 +10,7 @@ const Formulario = (tipo) => {
             <Btn />
         </form>
 
-    } else if(tipo.procedimento === "cadastro"){
+    } else if(props.tipo === "cadastro"){
         return <form className="formulario">
             <h1>Jeffrey - Cadastro</h1>
             <Input label="Nome" />
