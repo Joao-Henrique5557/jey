@@ -1,5 +1,5 @@
 import Input from "./Input";
-import { useNavigate } from "react-router-dom";
+import "../styles/components/formulario.css";
 
 const Formulario = (props) => {
     if(props.tipo === "login"){
@@ -7,7 +7,7 @@ const Formulario = (props) => {
             <h1>Jeffrey - Login</h1>
             <Input label="E-mail" />
             <Input label="Senha" />
-            <Btn />
+            <button className="btn">Fazer login</button>
         </form>
 
     } else if(props.tipo === "cadastro"){
@@ -16,7 +16,7 @@ const Formulario = (props) => {
             <Input label="Nome" />
             <Input label="E-mail" />
             <Input label="Senha" />
-            <Btn />
+            <button className="btn">Cadastrar</button>
         </form>
     }
 }
