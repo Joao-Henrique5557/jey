@@ -18,11 +18,11 @@ const Login = () => {
     }
 
     return <div id="login">
-        <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>{!dark ? "dark_mode" : "light_mode"}</span>
+        <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>
+            {!dark ? "dark_mode" : "light_mode"}
+        </span>
         <Formulario tipo="login" />
-        <p onClick={() => navigate("/cadastro")}>
-            Não tem conta? Cadastre-se
-        </p>
+        <p onClick={() => navigate("/cadastro")}>Não tem conta? Cadastre-se</p>
     </div>
 }
 

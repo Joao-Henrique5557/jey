@@ -17,13 +17,15 @@ const Cadastro = () => {
         }
     }
 
-    return <div id="login">
-        <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>{!dark ? "dark_mode" : "light_mode"}</span>
-        <Formulario tipo="cadastro" />
-        <p onClick={() => navigate("/")}>
-            Já tem conta? Faça login
-        </p>
-    </div>
+    return (
+        <div id="login">
+            <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>
+                {!dark ? "dark_mode" : "light_mode"}
+            </span>
+            <Formulario tipo="cadastro" />
+            <p onClick={() => navigate("/")}>Já tem conta? Faça login</p>
+        </div>
+    )
 }
 
 export default Cadastro;
