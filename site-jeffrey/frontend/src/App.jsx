@@ -10,7 +10,7 @@ import Feed from "./pages/feed";
 
 // Estilos globais
 
-import "./styles/thme.css";
+import "./styles/theme.css";
 import "./styles/global.css";
 import "./styles/devices.css";
 

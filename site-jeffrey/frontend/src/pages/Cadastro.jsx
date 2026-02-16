@@ -4,9 +4,13 @@ import '../styles/login.css';
 import { useNavigate } from "react-router-dom";
 
 const Cadastro = () => {
+    // Variaveis
+    
     const [dark, setDark] = useState(false);
     const navigate = useNavigate();
 
+    // funções
+    
     const toggleTheme = () => {
         if (dark === false) {
             document.documentElement.classList.add("dark");
@@ -16,6 +20,8 @@ const Cadastro = () => {
             setDark(false);
         }
     }
+
+    // Return
 
     return (
         <div id="login">
