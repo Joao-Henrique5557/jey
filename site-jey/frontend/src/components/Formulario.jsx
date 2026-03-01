@@ -1,14 +1,17 @@
 import Input from "./Input";
 import "../styles/components/formulario.css";
+import { useNavigate } from "react-router-dom";
 
 const Formulario = ({tipo}) => {
+    const navigate = useNavigate();
+
     if(tipo === "login"){
         return (
             <form className="formulario">
                 <h1>Jey - Login</h1>
                 <Input label="E-mail" />
                 <Input label="Senha" />
-                <button className="btn">Fazer login</button>
+                <button className="btn" onClick={() => navigate("/feed")}>Fazer login</button>
             </form>
         )
     } else if(tipo === "cadastro"){
