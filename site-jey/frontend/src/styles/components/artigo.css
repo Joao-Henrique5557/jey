@@ -1,0 +1,40 @@
+#artigo {
+    width: auto;
+    height: auto;
+}
+
+#artigo #img_artigo{
+    width: 100%;
+    height: 100%;
+}
+
+#artigo .main_artigo .reagir_artigo{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+#artigo .info_user_artigo{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+}
+
+#artigo .info_user_artigo img {
+    width: 20px;
+    height: 20px;
+}
+
+#artigo #img_user {
+    border-radius: 50%;
+}
+
+#artigo .main_artigo  .reagir_artigo:hover {
+    cursor: pointer;
+}
+
+#artigo .main_artigo #comentarios{
+    cursor: pointer;
+}

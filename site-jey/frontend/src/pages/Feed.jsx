@@ -1,4 +1,4 @@
-import '../styles/feed.css';
+import '../styles/paginas/feed.css';
 import { useState } from "react";
 import Grade_pubs from '../components/grade_pubs';
 
@@ -21,22 +21,24 @@ const Feed = () => {
     <div id="feed">
       <header id='header'>
         <h1>Jey</h1>
-        <span className="material-symbols-outlined themeLogin" onClick={toggleTheme}>
+        <span className="material-symbols-outlined icons">dangerous</span>
+        <span className="material-symbols-outlined icons" onClick={toggleTheme}>
             {!dark ? "dark_mode" : "light_mode"}
         </span>
       </header>
-      <div id='corpo'>
-        <div id='barra_lateral'>
-          <span className="material-symbols-outlined">house</span>
-          <span className="material-symbols-outlined">search</span>
-          <span className="material-symbols-outlined">account_circle</span>
-          <span className="material-symbols-outlined">add</span>
-          <span className="material-symbols-outlined">chat</span>
+      <main>
+        <div id='corpo'>
+          <div id='barra_lateral'>
+            <span className="material-symbols-outlined icons">search</span>
+            <span className="material-symbols-outlined icons">account_circle</span>
+            <span className="material-symbols-outlined icons">add</span>
+            <span className="material-symbols-outlined icons">chat</span>
+          </div>
+          <div id='conteudo'>
+            <Grade_pubs />
+          </div>
         </div>
-        <div id='conteudo'>
-          <Grade_pubs />
-        </div>
-      </div>
+      </main>
     </div>
   );
 };

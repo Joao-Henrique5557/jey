@@ -4,10 +4,7 @@ import '../styles/components/grade_pubs.css';
 const Grade_pubs = () => {
     return (
         <div id="grade_pubs">
-            <Artigo />
-            <Artigo />
-            <Artigo />
-            <Artigo />
+            <Artigo nome="João Henrique" desc="Artigo Experimental"/>
         </div>
     )
 }

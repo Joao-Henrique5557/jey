@@ -1,5 +1,6 @@
 #grade_pubs {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 150px;
+    height: auto;
 }
