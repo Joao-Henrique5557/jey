@@ -1,6 +1,7 @@
 import '../styles/paginas/feed.css';
 import { useState } from "react";
-import Grade_pubs from '../components/grade_pubs';
+import Grade_pubs from '../components/Grade_pubs';
+import Footer from '../components/Footer';
 
 const Feed = () => {
   const [dark, setDark] = useState(false);
@@ -39,6 +40,9 @@ const Feed = () => {
           </div>
         </div>
       </main>
+      
+      <Footer/>
+        
     </div>
   );
 };

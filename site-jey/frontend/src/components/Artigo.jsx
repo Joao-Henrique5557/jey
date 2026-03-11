@@ -1,13 +1,16 @@
 import "../styles/components/artigo.css";
 
-const Artigo = ({nome="erro", desc="erro"}) => {
+const Artigo = ({nome="erro", desc="erro", thunb}) => {
     return (
         <div id="artigo">
             <div className="info_user_artigo">
                 <img  id="img_user" src="/jey/perfil_padrao.jpg" alt="erro" />
                 <p>{nome}</p>
             </div>
-            <img id="img_artigo" src="/jey/thumbnail_padrao.png" alt="thumbnail_artigo" />
+            {thunb !== undefined && (
+                <img id="img_artigo" src={thunb} alt="thumbnail_artigo" />
+            )}
+        
             <div className="main_artigo">
                 <div className="reagir_artigo">
                     <span className="material-symbols-outlined">chat</span>
