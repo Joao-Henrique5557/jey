@@ -1,6 +1,6 @@
 import Artigo from "./Artigo";
 import '../styles/components/grade_pubs.css';
-import artigos from "../../../../logica-de-desenvolvimento/frontend/artigos_exemplos.js";
+
 
 const Grade_pubs = () => {
     return (
