@@ -1,9 +1,0 @@
-| Papel             | Uso                      |
-| ----------------- | ------------------------ |
-| `primary`         | ações principais         |
-| `on-primary`      | texto em cima do primary |
-| `surface`         | cards, menus             |
-| `background`      | fundo geral              |
-| `surface-variant` | listas, divisões         |
-| `outline`         | bordas                   |
-| `error`           | estados de erro          |
